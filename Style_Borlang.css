@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse;
+     margin: auto;
+     width: 80%;
+}
+td,th /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+    padding: 15px; /* et un peu d'espace pour que le texte ne soit pas collé aux bords */
+}
