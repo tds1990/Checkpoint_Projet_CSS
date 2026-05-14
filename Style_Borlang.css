@@ -1,3 +1,27 @@
+h1 {
+    font-size: 3em;
+    margin: 20px auto;
+    background-color: #ffc75f ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 2em;
+    margin: 20px auto;
+    color: #9F2104;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 1.3em;
+    margin: 20px auto;
+    color: #9F2104;
+}
+em {
+    font-size: 1.5em;
+    color: #555;
+    text-align: left;
+    padding-bottom: 20px;
+}
 table {
     border-collapse: collapse;
      margin: auto;
@@ -7,4 +31,61 @@ td,th /* Toutes les cellules des tableaux... */
 {
     border: 1px solid black; /* auront une bordure de 1px */
     padding: 15px; /* et un peu d'espace pour que le texte ne soit pas collé aux bords */
+}
+p, ul {
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+    font-size: 1.2em;
+}
+form{
+    margin: 10px auto;
+    width: 80%;
+    height: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.group1{
+    height: 20px;
+    justify-content: space-around;
+}
+.group2{
+    height: 20px;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.group3{
+    height: 30px;
+    justify-content: space-around;
+    margin: 20px auto;
+}   
+button{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+input[type="text"], input[type="email"]{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+td {
+    font-size: 1em ;
+}
+th {
+    background-color: #ff8066;
+    color: white;
+    font-size: 1.2em;
+}
+caption {
+    font-size: 1.2em;
+    margin: 10px auto;
+    color: #9F2104;
 }
