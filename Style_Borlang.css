@@ -21,6 +21,7 @@ em {
     color: #555;
     text-align: left;
     padding-bottom: 20px;
+    margin-top: 60px;
 }
 table {
     border-collapse: collapse;
@@ -53,6 +54,7 @@ form{
     height: 20px;
     justify-content: space-around;
     margin: 30px auto;
+    align-items: center;
 }
 .group3{
     height: 30px;
@@ -67,8 +69,9 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 1.2em;
+    margin-bottom: 100px;
 }
 input[type="text"], input[type="email"]{
     width: 20%;
@@ -76,6 +79,18 @@ input[type="text"], input[type="email"]{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+label[for="message"] {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+textarea {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}  
 td {
     font-size: 1em ;
 }
@@ -88,4 +103,30 @@ caption {
     font-size: 1.2em;
     margin: 10px auto;
     color: #9F2104;
+}
+body {
+    background-color: #f5f5f5;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: #ffc75f;
+    display: flex;             /* Active le mode Flexbox */
+    justify-content: space-between; /* Aligne le titre à gauche et le menu à droite */
+    align-items: center;       /* Aligne verticalement le titre et le menu au centre */
+    padding: 10px 25px;        /* Ajoute de l'espace interne (haut/bas gauche/droite) */
+    margin-bottom: 30px;       /* Ajoute de l'espace en dessous de la barre de navigation */
+}
+
+.PremierTitre {
+    display: flex;
+    align-items: center;
+    gap: 10px;                 /* Espace entre l'icône jaune et le texte */
+}
+
+/* Zone du menu de navigation */
+.Lemenu {
+    display: flex;
+    gap: 20px; 
+    font-size: 1.5em;                /* Espace horizontal entre chaque lien du menu */
 }

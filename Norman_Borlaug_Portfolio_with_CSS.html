@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="D:\GOMYCODE_DEVELOPPEMENT WEB\CHECKPOINT DEVELOPPEMENT WEB-IA\Checkpoint_Projet_HTML_1\Style_Borlang.css" rel="stylesheet">
     <title>Norman Borlaug Portfolio</title>
+     <!-- Liens de connexion à Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <!-- Importation spécifique de la police Roboto -->
+    <link href="https://googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="navbar">    
+        <div class="PremierTitre">
         <h1>Norman Borlaug</h1>
-        <em>The man who saved a billion lives</em>
-        <img src="D:\GOMYCODE_DEVELOPPEMENT WEB\CHECKPOINT DEVELOPPEMENT WEB-IA\Checkpoint_Projet_HTML_1\B_Norman.png" alt="Borlaug" width="100%" style="margin: 20px auto;">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        </div>
+        <nav class="Lemenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Work">Work</a>
+            <a href="#Resume">Resume</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <section id="about">
+        <em>The man who saved a billion lives</em>
+        <P><img src="D:\GOMYCODE_DEVELOPPEMENT WEB\CHECKPOINT DEVELOPPEMENT WEB-IA\Checkpoint_Projet_HTML_1\B_Norman.png" alt="Borlaug" width="100%" style="margin: 20px auto;">
+        </P>
         <h2>About Me</h2>
         <p>Norman Borlaug was an American agronomist and humanitarian who is 
             widely considered the father of the Green Revolution. <br>
@@ -130,6 +136,7 @@
         <h2>Contact</h2>
         <p>Vous souhaitez en savoir plus ou contribuer a son heritage ? Envoyez un message</p>
         <form action="" method="post">
+            <div class="supergroup">
            <div class="group1"> <label for="name">Nom et Prénom:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
@@ -140,6 +147,7 @@
             <div class="group2">
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea> <br>
+            </div>
             </div>
             <div class="group3">
             <button type="submit">Envoyer</button>
